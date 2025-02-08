@@ -29,6 +29,13 @@ Each Python file corresponds to a specific module and can be executed independen
 Get the required Python packages
 ``pipenv install``
 ``pipenv shell``
+
+Add your API keys to a .env file:
+```
+OPENAI_API_KEY=your-api-key-here
+HUGGINGFACE_API_TOKEN=your-api-key-here
+```
+
 Run each module using the following commands:
 
 Urban Planning Expert
