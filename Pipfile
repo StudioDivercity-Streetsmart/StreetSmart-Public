@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+polars = "*"
+matplotlib = "*"
+seaborn = "*"
+plotly = "*"
+torch = "*"
+transformers = "*"
+openai = "*"
+pydantic-settings = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.11"
